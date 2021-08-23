@@ -6,7 +6,7 @@ here I am simply exploring the HARCI-EU data and getting familiar with tiff data
 
 ### In[32]
 
-``ren_ene_map.tif`` is a generated GeoTiff file from the HARCI-EU Data that takes into matter renewable energy plants, data is clipped around Paris, France. This choice follows available economic data provided by the HARCI-EU paper (as is seen in In ``[41]``).
+``ren_ene_map.tif`` is a generated GeoTiff file from the HARCI-EU Data that takes into matter renewable energy plants, data is clipped around Paris, France. This choice follows available economic data provided by the HARCI-EU paper (as is seen in ``In [41]``).
 ``ren_ene_map.tif`` is composed of 4 bands. 1st band contains the plants locations and 4th band is the outline of the map ( ``Output [34]``) , second and 3rd band are just copies of the 1st one.
 The Classification Algorithm will be lead on the first band and we can later merge them to one file as is shown in ``Out [37]``.
 
